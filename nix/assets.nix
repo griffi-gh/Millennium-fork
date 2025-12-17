@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
   src = ../assets;
   pnpmDeps = pnpm.fetchDeps {
     inherit src version pname;
-    hash = "sha256-/FR6hFs/JGBAQEp58dw/DUvD1lTo0u5IBFCiveskgBc=";
+    hash = "sha256-C9vUsCMaQ54DUTCVcOG0bgfmq3pDA56cTsNDsDPrjE8=";
     fetcherVersion = 2;
   };
   nativeBuildInputs = [
